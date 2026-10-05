@@ -1,0 +1,24 @@
+A refined dark theme for Canvas LMS that works on any school's domain.
+
+Canvas is hosted under thousands of different addresses. Canvas Dark Mode recognizes it wherever it runs, whether that's yourschool.instructure.com or your school's own domain, and works with the tools used inside it, such as Panopto.
+
+✦ Works everywhere
+• Open Canvas, click the toolbar icon, and enable it in one click
+• Your sites are remembered and synced across your browsers
+• Enable embedded tools, such as Panopto, the same way
+
+✦ Looks right
+• Adaptive theming restyles every page, including new Canvas features and embedded tools
+• No white flash while pages load
+• Course colors, images and videos stay true to the original
+• Three palettes: Dim, Graphite and Midnight (OLED)
+
+✦ Stays out of your way
+• Pause it on any site with a single switch
+• Editors are left untouched, so your submissions look exactly as you wrote them
+
+✦ Private
+• No access to any site until you enable it there
+• No tracking, no analytics, no network requests
+
+Canvas Dark Mode is an independent project and is not affiliated with Instructure.

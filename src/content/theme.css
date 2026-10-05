@@ -1,0 +1,371 @@
+/*
+ * Scoped to `:root:not([data-cdm-off])`, so the theme applies the moment the browser injects this
+ * file and the script can switch it off instantly. Editable documents (the rich content editor)
+ * are left untouched so what a student types looks exactly like what their teacher will see.
+ */
+
+:root {
+  --cdm-floor: 0.235;
+  --cdm-ink: 0.93;
+}
+
+:root[data-cdm-palette="dim"] {
+  --cdm-floor: 0.305;
+}
+
+:root[data-cdm-palette="midnight"] {
+  --cdm-floor: 0.15;
+  --cdm-ink: 0.9;
+}
+
+:root:not([data-cdm-off], :has(> body[contenteditable="true"])) {
+  color-scheme: dark;
+
+  /* ---------- 1. Tokens ---------- */
+
+  --cdm-nav: oklch(calc(var(--cdm-floor) - 0.035) 0.004 265);
+  --cdm-bg: oklch(var(--cdm-floor) 0.004 265);
+  --cdm-surface: oklch(calc(var(--cdm-floor) + 0.035) 0.005 265);
+  --cdm-surface-raised: oklch(calc(var(--cdm-floor) + 0.07) 0.006 265);
+  --cdm-hover: oklch(calc(var(--cdm-floor) + 0.1) 0.008 265);
+  --cdm-border: oklch(calc(var(--cdm-floor) + 0.11) 0.006 265);
+  --cdm-border-strong: oklch(calc(var(--cdm-floor) + 0.2) 0.008 265);
+  --cdm-text: oklch(var(--cdm-ink) 0.004 265);
+  --cdm-text-muted: oklch(calc(var(--cdm-ink) - 0.19) 0.01 265);
+  --cdm-link: oklch(0.79 0.1 245);
+  --cdm-link-hover: oklch(0.86 0.08 245);
+  --cdm-selection: oklch(0.55 0.13 250 / 0.45);
+
+  /* ---------- 2. Canvas brand variables ---------- */
+
+  --ic-link-color: var(--cdm-link);
+  --ic-link-color-darkened-10: var(--cdm-link-hover);
+  --ic-link-color-lighter: var(--cdm-link-hover);
+  --ic-brand-font-color-dark: var(--cdm-text);
+  --ic-brand-font-color-dark-lightened-15: var(--cdm-text-muted);
+  --ic-brand-font-color-dark-lightened-28: var(--cdm-text-muted);
+  --ic-brand-global-nav-bgd: var(--cdm-nav);
+  --ic-brand-global-nav-logo-bgd: var(--cdm-nav);
+  --ic-brand-global-nav-ic-icon-svg-fill: var(--cdm-text-muted);
+  --ic-brand-global-nav-ic-icon-svg-fill--active: var(--cdm-text);
+  --ic-brand-global-nav-menu-item__text-color: var(--cdm-text-muted);
+  --ic-brand-global-nav-menu-item__text-color--active: var(--cdm-text);
+  --ic-brand-global-nav-avatar-border: var(--cdm-border-strong);
+  --ic-brand-Login-body-bgd-color: var(--cdm-nav);
+  --ic-brand-Login-body-bgd-shadow-color: transparent;
+  --ic-brand-Login-Content-bgd-color: var(--cdm-surface);
+  --ic-brand-Login-Content-border-color: var(--cdm-border);
+  --ic-brand-Login-Content-label-text-color: var(--cdm-text);
+  --ic-brand-Login-Content-password-text-color: var(--cdm-text-muted);
+  --ic-brand-Login-footer-link-color: var(--cdm-text-muted);
+  --ic-brand-Login-footer-link-color-hover: var(--cdm-text);
+
+  scrollbar-color: var(--cdm-border-strong) transparent;
+  background-color: var(--cdm-bg) !important;
+
+  & body {
+    background-color: var(--cdm-bg) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & ::selection {
+    background-color: var(--cdm-selection);
+    color: inherit;
+  }
+
+  & a:not(.btn, .Button, [role="button"], [class*="ic-app-header"], [class*="DashboardCard"]) {
+    color: var(--cdm-link);
+
+    &:hover {
+      color: var(--cdm-link-hover);
+    }
+  }
+
+  & ::placeholder {
+    color: var(--cdm-text-muted) !important;
+    opacity: 1;
+  }
+
+  & hr {
+    border-color: var(--cdm-border) !important;
+  }
+
+  & :is(code, kbd, samp, pre) {
+    background-color: var(--cdm-surface-raised) !important;
+    border-color: var(--cdm-border) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & mark {
+    background-color: oklch(0.55 0.11 90 / 0.55);
+    color: var(--cdm-text);
+  }
+
+  /* App shell */
+
+  & :is(.ic-app-header, .ic-app-header__logomark-container) {
+    background-color: var(--cdm-nav) !important;
+    border-color: var(--cdm-border) !important;
+  }
+
+  & .ic-app-header__menu-list-item--active .ic-app-header__menu-list-link,
+  & .ic-app-header__menu-list-link:hover {
+    background-color: var(--cdm-surface-raised) !important;
+  }
+
+  & :is(#header, .ic-app-nav-toggle-and-crumbs, .ic-app-crumbs, #breadcrumbs, #left-side, #right-side-wrapper) {
+    background-color: transparent !important;
+    border-color: var(--cdm-border) !important;
+  }
+
+  & #section-tabs .section a {
+    color: var(--cdm-text-muted) !important;
+
+    &:hover,
+    &.active {
+      background-color: var(--cdm-surface-raised) !important;
+      color: var(--cdm-text) !important;
+    }
+
+    &.active {
+      border-color: var(--cdm-text) !important;
+    }
+  }
+
+  & .ic-app-course-nav-toggle,
+  & .ic-app-nav-toggle-and-crumbs .Button--icon-action {
+    color: var(--cdm-text-muted) !important;
+  }
+
+  /* Legacy buttons ship gradient images that would survive a background-color change. */
+  &
+    :is(.btn, .Button, .ui-button):not(
+      .btn-primary,
+      .Button--primary,
+      .btn-danger,
+      .Button--danger,
+      .btn-success,
+      .Button--success
+    ) {
+    background-image: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Item groups (modules, assignments, quizzes) */
+
+  & :is(.ig-header, .item-group-condensed .ig-header, .context_module .header) {
+    background-color: var(--cdm-surface-raised) !important;
+    border-color: var(--cdm-border) !important;
+  }
+
+  & :is(.ig-row, .context_module_item) {
+    background-color: var(--cdm-surface) !important;
+    border-color: var(--cdm-border) !important;
+
+    /* biome-ignore lint/style/noDescendingSpecificity: compared against the link color rule; no shared property */
+    &:hover {
+      background-color: var(--cdm-hover) !important;
+    }
+  }
+
+  /* Tables */
+
+  & :is(.ic-Table, .table, table.summary, table.seas) {
+    color: var(--cdm-text) !important;
+
+    & :is(th, td) {
+      border-color: var(--cdm-border) !important;
+    }
+  }
+
+  & :is(.ic-Table--striped, .table-striped) tbody tr:nth-child(odd) > :is(td, th) {
+    background-color: var(--cdm-surface) !important;
+  }
+
+  & :is(.ic-Table--hover-row, .table-hover) tbody tr:hover > :is(td, th) {
+    background-color: var(--cdm-hover) !important;
+  }
+
+  /* jQuery UI dialogs, menus and widgets */
+
+  & :is(.ui-widget-content, .ui-dialog, .ui-menu, .ui-autocomplete, .ui-datepicker) {
+    background: var(--cdm-surface) !important;
+    border-color: var(--cdm-border) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & :is(.ui-widget-header, .ui-dialog-titlebar, .ui-dialog-buttonpane, .ui-datepicker-header) {
+    background: var(--cdm-surface-raised) !important;
+    border-color: var(--cdm-border) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & :is(.ui-state-default, .ui-widget-content .ui-state-default) {
+    background: var(--cdm-surface-raised) !important;
+    border-color: var(--cdm-border) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & :is(.ui-state-hover, .ui-state-focus, .ui-state-active, .ui-menu-item a:hover) {
+    background: var(--cdm-hover) !important;
+    color: var(--cdm-text) !important;
+  }
+
+  & .ui-widget-overlay {
+    background: oklch(0 0 0 / 0.6) !important;
+  }
+
+  /* Rich content editor chrome (TinyMCE) */
+
+  & .tox {
+    &
+      :is(
+        .tox-editor-header,
+        .tox-toolbar,
+        .tox-toolbar__primary,
+        .tox-toolbar__overflow,
+        .tox-menubar,
+        .tox-statusbar
+      ) {
+      background: var(--cdm-surface-raised) !important;
+      border-color: var(--cdm-border) !important;
+    }
+
+    & :is(.tox-tbtn, .tox-mbtn, .tox-statusbar, .tox-statusbar a, .tox-statusbar__path-item) {
+      color: var(--cdm-text) !important;
+    }
+
+    & :is(.tox-tbtn, .tox-mbtn):hover,
+    & .tox-tbtn--enabled {
+      background: var(--cdm-hover) !important;
+    }
+
+    & svg {
+      fill: currentColor !important;
+    }
+
+    /* Split-button arrows are white boxes that would otherwise turn darker than the toolbar. */
+    & .tox-split-button__chevron:not(#_):not(#_) {
+      background-color: transparent !important;
+
+      &:hover {
+        background-color: var(--cdm-hover) !important;
+      }
+    }
+
+    &.tox-tinymce {
+      border-color: var(--cdm-border) !important;
+    }
+  }
+
+  /* Calendar */
+
+  &
+    :is(
+      .fc-unthemed th,
+      .fc-unthemed td,
+      .fc-unthemed thead,
+      .fc-unthemed tbody,
+      .fc-unthemed .fc-divider,
+      .fc-unthemed .fc-row,
+      .fc-unthemed .fc-popover
+    ) {
+    border-color: var(--cdm-border) !important;
+  }
+
+  & .fc-unthemed td.fc-today,
+  & .mini_calendar .day.today {
+    background-color: var(--cdm-surface-raised) !important;
+  }
+
+  /* Stacked table and row borders read as a heavy grid on dark; spacing separates the days. */
+  & #minical :is(td, th, .fc-row):not(#_):not(#_) {
+    border-color: transparent !important;
+  }
+
+  /* SlickGrid (gradebook) */
+
+  & :is(.slick-header-column, .slick-cell) {
+    border-color: var(--cdm-border) !important;
+  }
+
+  /* Right sidebar: truncated items fade out into a white gradient drawn on a pseudo-element. */
+  & .event-details::after {
+    background-image: linear-gradient(to right, transparent 0%, var(--cdm-bg) 80%) !important;
+  }
+
+  /* The institution's sidebar watermark is usually a dark logo on transparent. */
+  & .ic-sidebar-logo__image {
+    filter: brightness(0) invert(0.82);
+    opacity: 0.7;
+  }
+
+  /* Panopto: list shelves fade through a white image, and navigation icons are dark images. */
+  & #playlistContainer > div {
+    background-image: none !important;
+  }
+
+  & :is(#navBar a.link > i.icon, .searchfolders > :is(.searchbtn, .clearbtn)) {
+    filter: invert(0.85);
+  }
+
+  & #siteLogo_customerLogoLink img {
+    filter: brightness(0) invert(0.85);
+  }
+
+  /* Media: keep fidelity, but invert rendered math that is drawn black on transparent. */
+  & img:is(.equation_image, [src*="/equation_images/"]) {
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+
+  /* ---------- 3. Adaptive remapping (tags set by the content engine) ---------- */
+
+  /* Set while the engine reads and recolors an element, so page transitions can't interfere. */
+  & [data-cdm~="still"] {
+    transition: none !important;
+  }
+
+  /*
+   * The remap rules below carry `:not(#_)` twice: never-matching ID selectors that lift their
+   * specificity above the page's own `!important` rules, which Canvas scopes under IDs.
+   */
+
+  /* Light surfaces turn into dark ones, keeping their relative order and a hint of their hue. */
+  & [data-cdm~="bg"]:not(#_):not(#_) {
+    background-color: oklch(from var(--cdm-src-bg) calc(var(--cdm-floor) + (1 - l) * 0.85) calc(c * 0.45) h) !important;
+  }
+
+  &
+    :is(a, button, summary, [role="button"], [role="menuitem"], [role="option"], [role="tab"])[data-cdm~="bg"]:not(
+      #_
+    ):not(#_):hover {
+    background-color: oklch(
+      from var(--cdm-src-bg) calc(var(--cdm-floor) + 0.06 + (1 - l) * 0.85) calc(c * 0.45) h
+    ) !important;
+  }
+
+  & [data-cdm~="hv"]:not(#_):not(#_):hover {
+    background-color: oklch(
+      from var(--cdm-src-hv) calc(var(--cdm-floor) + 0.06 + (1 - l) * 0.85) calc(c * 0.45) h
+    ) !important;
+  }
+
+  /* Dark text becomes light; darker originals end up brighter, so emphasis is preserved. */
+  & [data-cdm~="fg"]:not(#_):not(#_) {
+    color: oklch(from var(--cdm-src-fg) calc(var(--cdm-ink) - l * l * 0.5) min(c, 0.16) h) !important;
+  }
+
+  & [data-cdm~="gr"]:not(#_):not(#_) {
+    background-image: none !important;
+  }
+
+  & [data-cdm~="ln"]:not(#_):not(#_) {
+    border-color: var(--cdm-border-strong) !important;
+  }
+
+  & [data-cdm~="bd"]:not(#_):not(#_) {
+    border-color: oklch(
+      from var(--cdm-src-bd) calc(var(--cdm-floor) + 0.06 + (1 - l) * 0.55) calc(c * 0.5) h
+    ) !important;
+  }
+}

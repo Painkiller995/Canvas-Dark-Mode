@@ -1,0 +1,167 @@
+{
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "appDescription": {
+    "message": "Ein durchdachtes dunkles Design für Canvas LMS, das auf jeder Hochschul-Domain funktioniert."
+  },
+  "darkMode": {
+    "message": "Dunkelmodus"
+  },
+  "openSettings": {
+    "message": "Einstellungen"
+  },
+  "palette": {
+    "message": "Farbschema"
+  },
+  "paletteDim": {
+    "message": "Gedimmt"
+  },
+  "paletteDimHint": {
+    "message": "Weiches Grau mit sanftem Kontrast"
+  },
+  "paletteGraphite": {
+    "message": "Graphit"
+  },
+  "paletteGraphiteHint": {
+    "message": "Ausgewogen, die empfohlene Standardwahl"
+  },
+  "paletteMidnight": {
+    "message": "Mitternacht"
+  },
+  "paletteMidnightHint": {
+    "message": "Fast schwarz, ideal für OLED-Bildschirme"
+  },
+  "statusActiveTitle": {
+    "message": "Für diese Website aktiv"
+  },
+  "statusPausedTitle": {
+    "message": "Für diese Website pausiert"
+  },
+  "statusSiteToggle": {
+    "message": "Dunkelmodus auf $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "canvas.school.edu"
+      }
+    }
+  },
+  "statusOffTitle": {
+    "message": "Dunkelmodus ist aus"
+  },
+  "statusOffBody": {
+    "message": "Schalte ihn ein, um Canvas wieder dunkel darzustellen."
+  },
+  "statusNoneTitle": {
+    "message": "Keine Canvas-Seite geöffnet"
+  },
+  "statusNoneBody": {
+    "message": "Öffne Canvas in diesem Tab, um es hier zu verwalten."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas erkannt"
+  },
+  "statusDetectedBody": {
+    "message": "Aktiviere den Dunkelmodus für diese Domain. Du wirst nur einmal gefragt."
+  },
+  "statusUnrecognizedTitle": {
+    "message": "Nicht als Canvas erkannt"
+  },
+  "statusUnrecognizedBody": {
+    "message": "Gehört diese Website zu deinem Canvas, etwa als eingebettetes Tool, kannst du sie trotzdem aktivieren."
+  },
+  "statusAccessTitle": {
+    "message": "Zugriff erforderlich"
+  },
+  "statusAccessBody": {
+    "message": "Dein Browser blockiert die Erweiterung auf dieser Website."
+  },
+  "actionEnableSite": {
+    "message": "Für diese Website aktivieren"
+  },
+  "actionEnableAnyway": {
+    "message": "Trotzdem aktivieren"
+  },
+  "actionAllowAccess": {
+    "message": "Zugriff erlauben"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "sectionGeneral": {
+    "message": "Allgemein"
+  },
+  "generalEnabledHint": {
+    "message": "Schaltet das Design überall ein oder aus."
+  },
+  "sectionAppearance": {
+    "message": "Darstellung"
+  },
+  "interfaceTheme": {
+    "message": "Oberfläche der Erweiterung"
+  },
+  "interfaceThemeHint": {
+    "message": "Darstellung dieser Seite und des Pop-ups in der Symbolleiste."
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "sectionSites": {
+    "message": "Websites"
+  },
+  "sitesTitle": {
+    "message": "Aktivierte Websites"
+  },
+  "sitesHint": {
+    "message": "Der Dunkelmodus läuft nur auf diesen Websites, jeweils mit einzeln erteiltem Zugriff."
+  },
+  "sitesEmpty": {
+    "message": "Noch keine. Öffne Canvas und aktiviere es über das Symbol in der Symbolleiste oder füge es unten hinzu."
+  },
+  "sitesPausedBadge": {
+    "message": "Pausiert"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.deinehochschule.de"
+  },
+  "sitesAddLabel": {
+    "message": "Adresse der Website"
+  },
+  "actionAdd": {
+    "message": "Hinzufügen"
+  },
+  "actionPause": {
+    "message": "Pausieren"
+  },
+  "actionResume": {
+    "message": "Fortsetzen"
+  },
+  "actionRemove": {
+    "message": "Entfernen"
+  },
+  "errorInvalidAddress": {
+    "message": "Gib eine gültige https-Adresse ein."
+  },
+  "errorPermissionDenied": {
+    "message": "Der Zugriff wurde nicht gewährt, daher wurde die Website nicht hinzugefügt."
+  },
+  "autoSaveInfo": {
+    "message": "Änderungen werden automatisch gespeichert und zwischen deinen Browsern synchronisiert."
+  },
+  "version": {
+    "message": "Version $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  }
+}

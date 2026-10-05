@@ -1,0 +1,31 @@
+{
+  "name": "canvas-dark-mode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A refined dark theme for Canvas LMS that works on any school's domain.",
+  "packageManager": "pnpm@11.20.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "build:firefox": "vite build --mode firefox",
+    "build:watch": "vite build --watch --mode development",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.10",
+    "@crxjs/vite-plugin": "^2.4.0",
+    "@types/chrome": "^0.1.38",
+    "@types/node": "^25.5.0",
+    "lightningcss": "^1.32.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vite-plugin-solid": "^2.11.11"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.12"
+  }
+}

@@ -1,12 +1,51 @@
 {
-  "appName": {
-    "message": "Canvas Dark Mode"
+  "actionAdd": {
+    "message": "Hinzufügen"
+  },
+  "actionAllowAccess": {
+    "message": "Zugriff erlauben"
+  },
+  "actionEnableAnyway": {
+    "message": "Trotzdem aktivieren"
+  },
+  "actionEnableSite": {
+    "message": "Für diese Website aktivieren"
+  },
+  "actionPause": {
+    "message": "Pausieren"
+  },
+  "actionRemove": {
+    "message": "Entfernen"
+  },
+  "actionResume": {
+    "message": "Fortsetzen"
   },
   "appDescription": {
     "message": "Ein durchdachtes dunkles Design für Canvas LMS, das auf jeder Hochschul-Domain funktioniert."
   },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "Änderungen werden automatisch gespeichert und zwischen deinen Browsern synchronisiert."
+  },
   "darkMode": {
     "message": "Dunkelmodus"
+  },
+  "errorInvalidAddress": {
+    "message": "Gib eine gültige https-Adresse ein."
+  },
+  "errorPermissionDenied": {
+    "message": "Der Zugriff wurde nicht gewährt, daher wurde die Website nicht hinzugefügt."
+  },
+  "generalEnabledHint": {
+    "message": "Schaltet das Design überall ein oder aus."
+  },
+  "interfaceTheme": {
+    "message": "Oberfläche der Erweiterung"
+  },
+  "interfaceThemeHint": {
+    "message": "Darstellung dieser Seite und des Pop-ups in der Symbolleiste."
   },
   "openSettings": {
     "message": "Einstellungen"
@@ -32,8 +71,62 @@
   "paletteMidnightHint": {
     "message": "Fast schwarz, ideal für OLED-Bildschirme"
   },
+  "sectionAppearance": {
+    "message": "Darstellung"
+  },
+  "sectionGeneral": {
+    "message": "Allgemein"
+  },
+  "sectionSites": {
+    "message": "Websites"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "sitesAddLabel": {
+    "message": "Adresse der Website"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.deinehochschule.de"
+  },
+  "sitesEmpty": {
+    "message": "Noch keine. Öffne Canvas und aktiviere es über das Symbol in der Symbolleiste oder füge es unten hinzu."
+  },
+  "sitesHint": {
+    "message": "Der Dunkelmodus läuft nur auf diesen Websites, jeweils mit einzeln erteiltem Zugriff."
+  },
+  "sitesPausedBadge": {
+    "message": "Pausiert"
+  },
+  "sitesTitle": {
+    "message": "Aktivierte Websites"
+  },
+  "statusAccessBody": {
+    "message": "Dein Browser blockiert die Erweiterung auf dieser Website."
+  },
+  "statusAccessTitle": {
+    "message": "Zugriff erforderlich"
+  },
   "statusActiveTitle": {
     "message": "Für diese Website aktiv"
+  },
+  "statusDetectedBody": {
+    "message": "Aktiviere den Dunkelmodus für diese Domain. Du wirst nur einmal gefragt."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas erkannt"
+  },
+  "statusNoneBody": {
+    "message": "Öffne Canvas in diesem Tab, um es hier zu verwalten."
+  },
+  "statusNoneTitle": {
+    "message": "Keine Canvas-Seite geöffnet"
+  },
+  "statusOffBody": {
+    "message": "Schalte ihn ein, um Canvas wieder dunkel darzustellen."
+  },
+  "statusOffTitle": {
+    "message": "Dunkelmodus ist aus"
   },
   "statusPausedTitle": {
     "message": "Für diese Website pausiert"
@@ -47,113 +140,20 @@
       }
     }
   },
-  "statusOffTitle": {
-    "message": "Dunkelmodus ist aus"
-  },
-  "statusOffBody": {
-    "message": "Schalte ihn ein, um Canvas wieder dunkel darzustellen."
-  },
-  "statusNoneTitle": {
-    "message": "Keine Canvas-Seite geöffnet"
-  },
-  "statusNoneBody": {
-    "message": "Öffne Canvas in diesem Tab, um es hier zu verwalten."
-  },
-  "statusDetectedTitle": {
-    "message": "Canvas erkannt"
-  },
-  "statusDetectedBody": {
-    "message": "Aktiviere den Dunkelmodus für diese Domain. Du wirst nur einmal gefragt."
+  "statusUnrecognizedBody": {
+    "message": "Gehört diese Website zu deinem Canvas, etwa als eingebettetes Tool, kannst du sie trotzdem aktivieren."
   },
   "statusUnrecognizedTitle": {
     "message": "Nicht als Canvas erkannt"
   },
-  "statusUnrecognizedBody": {
-    "message": "Gehört diese Website zu deinem Canvas, etwa als eingebettetes Tool, kannst du sie trotzdem aktivieren."
-  },
-  "statusAccessTitle": {
-    "message": "Zugriff erforderlich"
-  },
-  "statusAccessBody": {
-    "message": "Dein Browser blockiert die Erweiterung auf dieser Website."
-  },
-  "actionEnableSite": {
-    "message": "Für diese Website aktivieren"
-  },
-  "actionEnableAnyway": {
-    "message": "Trotzdem aktivieren"
-  },
-  "actionAllowAccess": {
-    "message": "Zugriff erlauben"
-  },
-  "settingsTitle": {
-    "message": "Einstellungen"
-  },
-  "sectionGeneral": {
-    "message": "Allgemein"
-  },
-  "generalEnabledHint": {
-    "message": "Schaltet das Design überall ein oder aus."
-  },
-  "sectionAppearance": {
-    "message": "Darstellung"
-  },
-  "interfaceTheme": {
-    "message": "Oberfläche der Erweiterung"
-  },
-  "interfaceThemeHint": {
-    "message": "Darstellung dieser Seite und des Pop-ups in der Symbolleiste."
-  },
-  "themeSystem": {
-    "message": "System"
+  "themeDark": {
+    "message": "Dunkel"
   },
   "themeLight": {
     "message": "Hell"
   },
-  "themeDark": {
-    "message": "Dunkel"
-  },
-  "sectionSites": {
-    "message": "Websites"
-  },
-  "sitesTitle": {
-    "message": "Aktivierte Websites"
-  },
-  "sitesHint": {
-    "message": "Der Dunkelmodus läuft nur auf diesen Websites, jeweils mit einzeln erteiltem Zugriff."
-  },
-  "sitesEmpty": {
-    "message": "Noch keine. Öffne Canvas und aktiviere es über das Symbol in der Symbolleiste oder füge es unten hinzu."
-  },
-  "sitesPausedBadge": {
-    "message": "Pausiert"
-  },
-  "sitesAddPlaceholder": {
-    "message": "canvas.deinehochschule.de"
-  },
-  "sitesAddLabel": {
-    "message": "Adresse der Website"
-  },
-  "actionAdd": {
-    "message": "Hinzufügen"
-  },
-  "actionPause": {
-    "message": "Pausieren"
-  },
-  "actionResume": {
-    "message": "Fortsetzen"
-  },
-  "actionRemove": {
-    "message": "Entfernen"
-  },
-  "errorInvalidAddress": {
-    "message": "Gib eine gültige https-Adresse ein."
-  },
-  "errorPermissionDenied": {
-    "message": "Der Zugriff wurde nicht gewährt, daher wurde die Website nicht hinzugefügt."
-  },
-  "autoSaveInfo": {
-    "message": "Änderungen werden automatisch gespeichert und zwischen deinen Browsern synchronisiert."
+  "themeSystem": {
+    "message": "System"
   },
   "version": {
     "message": "Version $VERSION$",

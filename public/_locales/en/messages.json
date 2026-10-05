@@ -1,15 +1,54 @@
 {
-  "appName": {
-    "message": "Canvas Dark Mode",
-    "description": "Extension name."
+  "actionAdd": {
+    "message": "Add"
+  },
+  "actionAllowAccess": {
+    "message": "Allow access"
+  },
+  "actionEnableAnyway": {
+    "message": "Enable anyway"
+  },
+  "actionEnableSite": {
+    "message": "Enable on this site"
+  },
+  "actionPause": {
+    "message": "Pause"
+  },
+  "actionRemove": {
+    "message": "Remove"
+  },
+  "actionResume": {
+    "message": "Resume"
   },
   "appDescription": {
     "message": "A refined dark theme for Canvas LMS that works on any school's domain.",
     "description": "Store and manifest description. Max 132 characters."
   },
+  "appName": {
+    "message": "Canvas Dark Mode",
+    "description": "Extension name."
+  },
+  "autoSaveInfo": {
+    "message": "Changes save automatically and sync across your browsers."
+  },
   "darkMode": {
     "message": "Dark mode",
     "description": "Accessible label of the master on/off switch."
+  },
+  "errorInvalidAddress": {
+    "message": "Enter a valid https address."
+  },
+  "errorPermissionDenied": {
+    "message": "Access wasn’t granted, so the site wasn’t added."
+  },
+  "generalEnabledHint": {
+    "message": "Turns the theme on or off everywhere."
+  },
+  "interfaceTheme": {
+    "message": "Extension interface"
+  },
+  "interfaceThemeHint": {
+    "message": "Appearance of this page and the toolbar popup."
   },
   "openSettings": {
     "message": "Settings"
@@ -35,8 +74,62 @@
   "paletteMidnightHint": {
     "message": "Near-black, ideal for OLED screens"
   },
+  "sectionAppearance": {
+    "message": "Appearance"
+  },
+  "sectionGeneral": {
+    "message": "General"
+  },
+  "sectionSites": {
+    "message": "Sites"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "sitesAddLabel": {
+    "message": "Site address"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.yourschool.edu"
+  },
+  "sitesEmpty": {
+    "message": "None yet. Open Canvas and enable it from the toolbar icon, or add it below."
+  },
+  "sitesHint": {
+    "message": "Dark mode runs only on these sites, each granted access individually."
+  },
+  "sitesPausedBadge": {
+    "message": "Paused"
+  },
+  "sitesTitle": {
+    "message": "Enabled sites"
+  },
+  "statusAccessBody": {
+    "message": "Your browser is blocking the extension on this site."
+  },
+  "statusAccessTitle": {
+    "message": "Access needed"
+  },
   "statusActiveTitle": {
     "message": "On for this site"
+  },
+  "statusDetectedBody": {
+    "message": "Enable dark mode for this domain. You’ll only be asked once."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas detected"
+  },
+  "statusNoneBody": {
+    "message": "Open Canvas in this tab to manage it here."
+  },
+  "statusNoneTitle": {
+    "message": "No Canvas page open"
+  },
+  "statusOffBody": {
+    "message": "Turn it on to theme Canvas again."
+  },
+  "statusOffTitle": {
+    "message": "Dark mode is off"
   },
   "statusPausedTitle": {
     "message": "Paused on this site"
@@ -51,113 +144,20 @@
       }
     }
   },
-  "statusOffTitle": {
-    "message": "Dark mode is off"
-  },
-  "statusOffBody": {
-    "message": "Turn it on to theme Canvas again."
-  },
-  "statusNoneTitle": {
-    "message": "No Canvas page open"
-  },
-  "statusNoneBody": {
-    "message": "Open Canvas in this tab to manage it here."
-  },
-  "statusDetectedTitle": {
-    "message": "Canvas detected"
-  },
-  "statusDetectedBody": {
-    "message": "Enable dark mode for this domain. You’ll only be asked once."
+  "statusUnrecognizedBody": {
+    "message": "If this site is part of your Canvas, such as an embedded tool, you can still enable it."
   },
   "statusUnrecognizedTitle": {
     "message": "Not recognized as Canvas"
   },
-  "statusUnrecognizedBody": {
-    "message": "If this site is part of your Canvas, such as an embedded tool, you can still enable it."
-  },
-  "statusAccessTitle": {
-    "message": "Access needed"
-  },
-  "statusAccessBody": {
-    "message": "Your browser is blocking the extension on this site."
-  },
-  "actionEnableSite": {
-    "message": "Enable on this site"
-  },
-  "actionEnableAnyway": {
-    "message": "Enable anyway"
-  },
-  "actionAllowAccess": {
-    "message": "Allow access"
-  },
-  "settingsTitle": {
-    "message": "Settings"
-  },
-  "sectionGeneral": {
-    "message": "General"
-  },
-  "generalEnabledHint": {
-    "message": "Turns the theme on or off everywhere."
-  },
-  "sectionAppearance": {
-    "message": "Appearance"
-  },
-  "interfaceTheme": {
-    "message": "Extension interface"
-  },
-  "interfaceThemeHint": {
-    "message": "Appearance of this page and the toolbar popup."
-  },
-  "themeSystem": {
-    "message": "System"
+  "themeDark": {
+    "message": "Dark"
   },
   "themeLight": {
     "message": "Light"
   },
-  "themeDark": {
-    "message": "Dark"
-  },
-  "sectionSites": {
-    "message": "Sites"
-  },
-  "sitesTitle": {
-    "message": "Enabled sites"
-  },
-  "sitesHint": {
-    "message": "Dark mode runs only on these sites, each granted access individually."
-  },
-  "sitesEmpty": {
-    "message": "None yet. Open Canvas and enable it from the toolbar icon, or add it below."
-  },
-  "sitesPausedBadge": {
-    "message": "Paused"
-  },
-  "sitesAddPlaceholder": {
-    "message": "canvas.yourschool.edu"
-  },
-  "sitesAddLabel": {
-    "message": "Site address"
-  },
-  "actionAdd": {
-    "message": "Add"
-  },
-  "actionPause": {
-    "message": "Pause"
-  },
-  "actionResume": {
-    "message": "Resume"
-  },
-  "actionRemove": {
-    "message": "Remove"
-  },
-  "errorInvalidAddress": {
-    "message": "Enter a valid https address."
-  },
-  "errorPermissionDenied": {
-    "message": "Access wasn’t granted, so the site wasn’t added."
-  },
-  "autoSaveInfo": {
-    "message": "Changes save automatically and sync across your browsers."
+  "themeSystem": {
+    "message": "System"
   },
   "version": {
     "message": "Version $VERSION$",

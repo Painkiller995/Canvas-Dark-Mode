@@ -1,12 +1,51 @@
 {
-  "appName": {
-    "message": "Canvas Dark Mode"
+  "actionAdd": {
+    "message": "إضافة"
+  },
+  "actionAllowAccess": {
+    "message": "السماح بالوصول"
+  },
+  "actionEnableAnyway": {
+    "message": "تفعيل على أي حال"
+  },
+  "actionEnableSite": {
+    "message": "تفعيل على هذا الموقع"
+  },
+  "actionPause": {
+    "message": "إيقاف مؤقت"
+  },
+  "actionRemove": {
+    "message": "إزالة"
+  },
+  "actionResume": {
+    "message": "استئناف"
   },
   "appDescription": {
     "message": "مظهر داكن أنيق لمنصة Canvas LMS يعمل على نطاق أي جامعة أو مدرسة."
   },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "تُحفظ التغييرات تلقائيًا وتتم مزامنتها بين متصفحاتك."
+  },
   "darkMode": {
     "message": "الوضع الداكن"
+  },
+  "errorInvalidAddress": {
+    "message": "أدخل عنوان https صالحًا."
+  },
+  "errorPermissionDenied": {
+    "message": "لم يُمنح الإذن، لذا لم تتم إضافة الموقع."
+  },
+  "generalEnabledHint": {
+    "message": "يشغّل المظهر أو يوقفه في كل مكان."
+  },
+  "interfaceTheme": {
+    "message": "واجهة الإضافة"
+  },
+  "interfaceThemeHint": {
+    "message": "مظهر هذه الصفحة والنافذة المنبثقة في شريط الأدوات."
   },
   "openSettings": {
     "message": "الإعدادات"
@@ -32,8 +71,62 @@
   "paletteMidnightHint": {
     "message": "شبه أسود، مثالي لشاشات OLED"
   },
+  "sectionAppearance": {
+    "message": "المظهر"
+  },
+  "sectionGeneral": {
+    "message": "عام"
+  },
+  "sectionSites": {
+    "message": "المواقع"
+  },
+  "settingsTitle": {
+    "message": "الإعدادات"
+  },
+  "sitesAddLabel": {
+    "message": "عنوان الموقع"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.yourschool.edu"
+  },
+  "sitesEmpty": {
+    "message": "لا شيء بعد. افتح Canvas وفعّله من أيقونة شريط الأدوات، أو أضفه أدناه."
+  },
+  "sitesHint": {
+    "message": "يعمل الوضع الداكن على هذه المواقع فقط، ويُمنح الوصول لكل موقع على حدة."
+  },
+  "sitesPausedBadge": {
+    "message": "متوقف مؤقتًا"
+  },
+  "sitesTitle": {
+    "message": "المواقع المفعّلة"
+  },
+  "statusAccessBody": {
+    "message": "يمنع متصفحك الإضافة من العمل على هذا الموقع."
+  },
+  "statusAccessTitle": {
+    "message": "يلزم منح الإذن"
+  },
   "statusActiveTitle": {
     "message": "مُفعّل لهذا الموقع"
+  },
+  "statusDetectedBody": {
+    "message": "فعّل الوضع الداكن لهذا النطاق. سيُطلب منك ذلك مرة واحدة فقط."
+  },
+  "statusDetectedTitle": {
+    "message": "تم اكتشاف Canvas"
+  },
+  "statusNoneBody": {
+    "message": "افتح Canvas في هذه العلامة لإدارته من هنا."
+  },
+  "statusNoneTitle": {
+    "message": "لا توجد صفحة Canvas مفتوحة"
+  },
+  "statusOffBody": {
+    "message": "شغّله لتطبيق المظهر الداكن على Canvas مجددًا."
+  },
+  "statusOffTitle": {
+    "message": "الوضع الداكن متوقف"
   },
   "statusPausedTitle": {
     "message": "متوقف مؤقتًا لهذا الموقع"
@@ -47,113 +140,20 @@
       }
     }
   },
-  "statusOffTitle": {
-    "message": "الوضع الداكن متوقف"
-  },
-  "statusOffBody": {
-    "message": "شغّله لتطبيق المظهر الداكن على Canvas مجددًا."
-  },
-  "statusNoneTitle": {
-    "message": "لا توجد صفحة Canvas مفتوحة"
-  },
-  "statusNoneBody": {
-    "message": "افتح Canvas في هذه العلامة لإدارته من هنا."
-  },
-  "statusDetectedTitle": {
-    "message": "تم اكتشاف Canvas"
-  },
-  "statusDetectedBody": {
-    "message": "فعّل الوضع الداكن لهذا النطاق. سيُطلب منك ذلك مرة واحدة فقط."
+  "statusUnrecognizedBody": {
+    "message": "إذا كان هذا الموقع جزءًا من Canvas لديك، كأداة مضمّنة، فيمكنك تفعيله رغم ذلك."
   },
   "statusUnrecognizedTitle": {
     "message": "لم يُتعرّف عليه كـ Canvas"
   },
-  "statusUnrecognizedBody": {
-    "message": "إذا كان هذا الموقع جزءًا من Canvas لديك، كأداة مضمّنة، فيمكنك تفعيله رغم ذلك."
-  },
-  "statusAccessTitle": {
-    "message": "يلزم منح الإذن"
-  },
-  "statusAccessBody": {
-    "message": "يمنع متصفحك الإضافة من العمل على هذا الموقع."
-  },
-  "actionEnableSite": {
-    "message": "تفعيل على هذا الموقع"
-  },
-  "actionEnableAnyway": {
-    "message": "تفعيل على أي حال"
-  },
-  "actionAllowAccess": {
-    "message": "السماح بالوصول"
-  },
-  "settingsTitle": {
-    "message": "الإعدادات"
-  },
-  "sectionGeneral": {
-    "message": "عام"
-  },
-  "generalEnabledHint": {
-    "message": "يشغّل المظهر أو يوقفه في كل مكان."
-  },
-  "sectionAppearance": {
-    "message": "المظهر"
-  },
-  "interfaceTheme": {
-    "message": "واجهة الإضافة"
-  },
-  "interfaceThemeHint": {
-    "message": "مظهر هذه الصفحة والنافذة المنبثقة في شريط الأدوات."
-  },
-  "themeSystem": {
-    "message": "النظام"
+  "themeDark": {
+    "message": "داكن"
   },
   "themeLight": {
     "message": "فاتح"
   },
-  "themeDark": {
-    "message": "داكن"
-  },
-  "sectionSites": {
-    "message": "المواقع"
-  },
-  "sitesTitle": {
-    "message": "المواقع المفعّلة"
-  },
-  "sitesHint": {
-    "message": "يعمل الوضع الداكن على هذه المواقع فقط، ويُمنح الوصول لكل موقع على حدة."
-  },
-  "sitesEmpty": {
-    "message": "لا شيء بعد. افتح Canvas وفعّله من أيقونة شريط الأدوات، أو أضفه أدناه."
-  },
-  "sitesPausedBadge": {
-    "message": "متوقف مؤقتًا"
-  },
-  "sitesAddPlaceholder": {
-    "message": "canvas.yourschool.edu"
-  },
-  "sitesAddLabel": {
-    "message": "عنوان الموقع"
-  },
-  "actionAdd": {
-    "message": "إضافة"
-  },
-  "actionPause": {
-    "message": "إيقاف مؤقت"
-  },
-  "actionResume": {
-    "message": "استئناف"
-  },
-  "actionRemove": {
-    "message": "إزالة"
-  },
-  "errorInvalidAddress": {
-    "message": "أدخل عنوان https صالحًا."
-  },
-  "errorPermissionDenied": {
-    "message": "لم يُمنح الإذن، لذا لم تتم إضافة الموقع."
-  },
-  "autoSaveInfo": {
-    "message": "تُحفظ التغييرات تلقائيًا وتتم مزامنتها بين متصفحاتك."
+  "themeSystem": {
+    "message": "النظام"
   },
   "version": {
     "message": "الإصدار $VERSION$",

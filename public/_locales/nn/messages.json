@@ -1,0 +1,167 @@
+{
+  "actionAdd": {
+    "message": "Legg til"
+  },
+  "actionAllowAccess": {
+    "message": "Gi tilgang"
+  },
+  "actionEnableAnyway": {
+    "message": "Slå på likevel"
+  },
+  "actionEnableSite": {
+    "message": "Slå på for denne nettstaden"
+  },
+  "actionPause": {
+    "message": "Set på pause"
+  },
+  "actionRemove": {
+    "message": "Fjern"
+  },
+  "actionResume": {
+    "message": "Hald fram"
+  },
+  "appDescription": {
+    "message": "Eit gjennomført mørkt tema for Canvas LMS som fungerer på alle skular sine domene."
+  },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "Endringar blir lagra automatisk og synkroniserte mellom nettlesarane dine."
+  },
+  "darkMode": {
+    "message": "Mørk modus"
+  },
+  "errorInvalidAddress": {
+    "message": "Skriv inn ei gyldig https-adresse."
+  },
+  "errorPermissionDenied": {
+    "message": "Tilgang vart ikkje gitt, så nettstaden vart ikkje lagd til."
+  },
+  "generalEnabledHint": {
+    "message": "Slår temaet på eller av overalt."
+  },
+  "interfaceTheme": {
+    "message": "Grensesnittet til utvidinga"
+  },
+  "interfaceThemeHint": {
+    "message": "Utsjånaden til denne sida og sprettoppvindauget i verktøylinja."
+  },
+  "openSettings": {
+    "message": "Innstillingar"
+  },
+  "palette": {
+    "message": "Fargetema"
+  },
+  "paletteDim": {
+    "message": "Dempa"
+  },
+  "paletteDimHint": {
+    "message": "Mjukt grått med mild kontrast"
+  },
+  "paletteGraphite": {
+    "message": "Grafitt"
+  },
+  "paletteGraphiteHint": {
+    "message": "Balansert, det tilrådde standardvalet"
+  },
+  "paletteMidnight": {
+    "message": "Midnatt"
+  },
+  "paletteMidnightHint": {
+    "message": "Nesten svart, ideell for OLED-skjermar"
+  },
+  "sectionAppearance": {
+    "message": "Utsjånad"
+  },
+  "sectionGeneral": {
+    "message": "Generelt"
+  },
+  "sectionSites": {
+    "message": "Nettstader"
+  },
+  "settingsTitle": {
+    "message": "Innstillingar"
+  },
+  "sitesAddLabel": {
+    "message": "Adressa til nettstaden"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.skulendin.no"
+  },
+  "sitesEmpty": {
+    "message": "Ingen enno. Opne Canvas og slå det på via ikonet i verktøylinja, eller legg det til nedanfor."
+  },
+  "sitesHint": {
+    "message": "Mørk modus køyrer berre på desse nettstadene, som kvar har fått tilgang separat."
+  },
+  "sitesPausedBadge": {
+    "message": "På pause"
+  },
+  "sitesTitle": {
+    "message": "Aktiverte nettstader"
+  },
+  "statusAccessBody": {
+    "message": "Nettlesaren din blokkerer utvidinga på denne nettstaden."
+  },
+  "statusAccessTitle": {
+    "message": "Tilgang krevst"
+  },
+  "statusActiveTitle": {
+    "message": "På for denne nettstaden"
+  },
+  "statusDetectedBody": {
+    "message": "Slå på mørk modus for dette domenet. Du blir berre spurd éin gong."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas oppdaga"
+  },
+  "statusNoneBody": {
+    "message": "Opne Canvas i denne fana for å administrere det her."
+  },
+  "statusNoneTitle": {
+    "message": "Inga Canvas-side open"
+  },
+  "statusOffBody": {
+    "message": "Slå han på for å gjere Canvas mørkt igjen."
+  },
+  "statusOffTitle": {
+    "message": "Mørk modus er av"
+  },
+  "statusPausedTitle": {
+    "message": "Sett på pause for denne nettstaden"
+  },
+  "statusSiteToggle": {
+    "message": "Mørk modus på $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "canvas.school.edu"
+      }
+    }
+  },
+  "statusUnrecognizedBody": {
+    "message": "Viss denne nettstaden er ein del av Canvas-en din, til dømes eit innebygd verktøy, kan du likevel slå han på."
+  },
+  "statusUnrecognizedTitle": {
+    "message": "Ikkje kjend att som Canvas"
+  },
+  "themeDark": {
+    "message": "Mørkt"
+  },
+  "themeLight": {
+    "message": "Lyst"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "version": {
+    "message": "Versjon $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  }
+}

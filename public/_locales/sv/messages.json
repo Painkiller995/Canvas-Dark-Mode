@@ -1,0 +1,167 @@
+{
+  "actionAdd": {
+    "message": "Lägg till"
+  },
+  "actionAllowAccess": {
+    "message": "Tillåt åtkomst"
+  },
+  "actionEnableAnyway": {
+    "message": "Aktivera ändå"
+  },
+  "actionEnableSite": {
+    "message": "Aktivera på den här webbplatsen"
+  },
+  "actionPause": {
+    "message": "Pausa"
+  },
+  "actionRemove": {
+    "message": "Ta bort"
+  },
+  "actionResume": {
+    "message": "Återuppta"
+  },
+  "appDescription": {
+    "message": "Ett genomarbetat mörkt tema för Canvas LMS som fungerar på alla skolors domäner."
+  },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "Ändringar sparas automatiskt och synkroniseras mellan dina webbläsare."
+  },
+  "darkMode": {
+    "message": "Mörkt läge"
+  },
+  "errorInvalidAddress": {
+    "message": "Ange en giltig https-adress."
+  },
+  "errorPermissionDenied": {
+    "message": "Åtkomst beviljades inte, så webbplatsen lades inte till."
+  },
+  "generalEnabledHint": {
+    "message": "Slår på eller av temat överallt."
+  },
+  "interfaceTheme": {
+    "message": "Tilläggets gränssnitt"
+  },
+  "interfaceThemeHint": {
+    "message": "Utseendet på den här sidan och popup-fönstret i verktygsfältet."
+  },
+  "openSettings": {
+    "message": "Inställningar"
+  },
+  "palette": {
+    "message": "Färgtema"
+  },
+  "paletteDim": {
+    "message": "Dämpad"
+  },
+  "paletteDimHint": {
+    "message": "Mjukt grått med mild kontrast"
+  },
+  "paletteGraphite": {
+    "message": "Grafit"
+  },
+  "paletteGraphiteHint": {
+    "message": "Balanserat, det rekommenderade standardvalet"
+  },
+  "paletteMidnight": {
+    "message": "Midnatt"
+  },
+  "paletteMidnightHint": {
+    "message": "Nästan svart, perfekt för OLED-skärmar"
+  },
+  "sectionAppearance": {
+    "message": "Utseende"
+  },
+  "sectionGeneral": {
+    "message": "Allmänt"
+  },
+  "sectionSites": {
+    "message": "Webbplatser"
+  },
+  "settingsTitle": {
+    "message": "Inställningar"
+  },
+  "sitesAddLabel": {
+    "message": "Webbplatsens adress"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.dinskola.se"
+  },
+  "sitesEmpty": {
+    "message": "Inga än. Öppna Canvas och aktivera det via ikonen i verktygsfältet, eller lägg till det nedan."
+  },
+  "sitesHint": {
+    "message": "Mörkt läge körs bara på de här webbplatserna, som var och en har fått åtkomst separat."
+  },
+  "sitesPausedBadge": {
+    "message": "Pausad"
+  },
+  "sitesTitle": {
+    "message": "Aktiverade webbplatser"
+  },
+  "statusAccessBody": {
+    "message": "Din webbläsare blockerar tillägget på den här webbplatsen."
+  },
+  "statusAccessTitle": {
+    "message": "Åtkomst krävs"
+  },
+  "statusActiveTitle": {
+    "message": "På för den här webbplatsen"
+  },
+  "statusDetectedBody": {
+    "message": "Aktivera mörkt läge för den här domänen. Du får bara frågan en gång."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas hittades"
+  },
+  "statusNoneBody": {
+    "message": "Öppna Canvas i den här fliken för att hantera det här."
+  },
+  "statusNoneTitle": {
+    "message": "Ingen Canvas-sida öppen"
+  },
+  "statusOffBody": {
+    "message": "Slå på det för att göra Canvas mörkt igen."
+  },
+  "statusOffTitle": {
+    "message": "Mörkt läge är av"
+  },
+  "statusPausedTitle": {
+    "message": "Pausad på den här webbplatsen"
+  },
+  "statusSiteToggle": {
+    "message": "Mörkt läge på $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "canvas.school.edu"
+      }
+    }
+  },
+  "statusUnrecognizedBody": {
+    "message": "Om webbplatsen är en del av ditt Canvas, till exempel ett inbäddat verktyg, kan du ändå aktivera den."
+  },
+  "statusUnrecognizedTitle": {
+    "message": "Känns inte igen som Canvas"
+  },
+  "themeDark": {
+    "message": "Mörkt"
+  },
+  "themeLight": {
+    "message": "Ljust"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "version": {
+    "message": "Version $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  }
+}

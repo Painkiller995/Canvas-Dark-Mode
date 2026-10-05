@@ -58,7 +58,7 @@ Requires Chrome 120 or later. The theme relies on CSS nesting and relative color
 
 ## Localization
 
-English, German and Arabic (right-to-left) live in `public/_locales/`. Every locale must define the same keys as `en`.
+English, German, Arabic (right-to-left), Danish, Swedish, Norwegian Bokmål (`nb`, also served to Chrome's `no`) and Norwegian Nynorsk (`nn`) live in `public/_locales/`. Every locale must define the same keys as `en`.
 
 ## License
 

@@ -1,0 +1,167 @@
+{
+  "actionAdd": {
+    "message": "Legg til"
+  },
+  "actionAllowAccess": {
+    "message": "Gi tilgang"
+  },
+  "actionEnableAnyway": {
+    "message": "Slå på likevel"
+  },
+  "actionEnableSite": {
+    "message": "Slå på for dette nettstedet"
+  },
+  "actionPause": {
+    "message": "Sett på pause"
+  },
+  "actionRemove": {
+    "message": "Fjern"
+  },
+  "actionResume": {
+    "message": "Fortsett"
+  },
+  "appDescription": {
+    "message": "Et gjennomført mørkt tema for Canvas LMS som fungerer på alle skolers domener."
+  },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "Endringer lagres automatisk og synkroniseres mellom nettleserne dine."
+  },
+  "darkMode": {
+    "message": "Mørk modus"
+  },
+  "errorInvalidAddress": {
+    "message": "Skriv inn en gyldig https-adresse."
+  },
+  "errorPermissionDenied": {
+    "message": "Tilgang ble ikke gitt, så nettstedet ble ikke lagt til."
+  },
+  "generalEnabledHint": {
+    "message": "Slår temaet på eller av overalt."
+  },
+  "interfaceTheme": {
+    "message": "Utvidelsens grensesnitt"
+  },
+  "interfaceThemeHint": {
+    "message": "Utseendet på denne siden og popup-vinduet i verktøylinjen."
+  },
+  "openSettings": {
+    "message": "Innstillinger"
+  },
+  "palette": {
+    "message": "Fargetema"
+  },
+  "paletteDim": {
+    "message": "Dempet"
+  },
+  "paletteDimHint": {
+    "message": "Mykt grått med mild kontrast"
+  },
+  "paletteGraphite": {
+    "message": "Grafitt"
+  },
+  "paletteGraphiteHint": {
+    "message": "Balansert, det anbefalte standardvalget"
+  },
+  "paletteMidnight": {
+    "message": "Midnatt"
+  },
+  "paletteMidnightHint": {
+    "message": "Nesten svart, ideell for OLED-skjermer"
+  },
+  "sectionAppearance": {
+    "message": "Utseende"
+  },
+  "sectionGeneral": {
+    "message": "Generelt"
+  },
+  "sectionSites": {
+    "message": "Nettsteder"
+  },
+  "settingsTitle": {
+    "message": "Innstillinger"
+  },
+  "sitesAddLabel": {
+    "message": "Nettstedets adresse"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.dinskole.no"
+  },
+  "sitesEmpty": {
+    "message": "Ingen ennå. Åpne Canvas og slå det på via ikonet i verktøylinjen, eller legg det til nedenfor."
+  },
+  "sitesHint": {
+    "message": "Mørk modus kjører bare på disse nettstedene, som hvert har fått tilgang separat."
+  },
+  "sitesPausedBadge": {
+    "message": "På pause"
+  },
+  "sitesTitle": {
+    "message": "Aktiverte nettsteder"
+  },
+  "statusAccessBody": {
+    "message": "Nettleseren din blokkerer utvidelsen på dette nettstedet."
+  },
+  "statusAccessTitle": {
+    "message": "Tilgang kreves"
+  },
+  "statusActiveTitle": {
+    "message": "På for dette nettstedet"
+  },
+  "statusDetectedBody": {
+    "message": "Slå på mørk modus for dette domenet. Du blir bare spurt én gang."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas oppdaget"
+  },
+  "statusNoneBody": {
+    "message": "Åpne Canvas i denne fanen for å administrere det her."
+  },
+  "statusNoneTitle": {
+    "message": "Ingen Canvas-side åpen"
+  },
+  "statusOffBody": {
+    "message": "Slå den på for å gjøre Canvas mørkt igjen."
+  },
+  "statusOffTitle": {
+    "message": "Mørk modus er av"
+  },
+  "statusPausedTitle": {
+    "message": "Satt på pause for dette nettstedet"
+  },
+  "statusSiteToggle": {
+    "message": "Mørk modus på $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "canvas.school.edu"
+      }
+    }
+  },
+  "statusUnrecognizedBody": {
+    "message": "Hvis dette nettstedet er en del av ditt Canvas, for eksempel et innebygd verktøy, kan du likevel slå det på."
+  },
+  "statusUnrecognizedTitle": {
+    "message": "Ikke gjenkjent som Canvas"
+  },
+  "themeDark": {
+    "message": "Mørkt"
+  },
+  "themeLight": {
+    "message": "Lyst"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "version": {
+    "message": "Versjon $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "actionAdd": {
+    "message": "Tilføj"
+  },
+  "actionAllowAccess": {
+    "message": "Tillad adgang"
+  },
+  "actionEnableAnyway": {
+    "message": "Slå til alligevel"
+  },
+  "actionEnableSite": {
+    "message": "Slå til på dette websted"
+  },
+  "actionPause": {
+    "message": "Sæt på pause"
+  },
+  "actionRemove": {
+    "message": "Fjern"
+  },
+  "actionResume": {
+    "message": "Genoptag"
+  },
+  "appDescription": {
+    "message": "Et gennemført mørkt tema til Canvas LMS, der virker på alle skolers domæner."
+  },
+  "appName": {
+    "message": "Canvas Dark Mode"
+  },
+  "autoSaveInfo": {
+    "message": "Ændringer gemmes automatisk og synkroniseres mellem dine browsere."
+  },
+  "darkMode": {
+    "message": "Mørk tilstand"
+  },
+  "errorInvalidAddress": {
+    "message": "Angiv en gyldig https-adresse."
+  },
+  "errorPermissionDenied": {
+    "message": "Adgang blev ikke givet, så webstedet blev ikke tilføjet."
+  },
+  "generalEnabledHint": {
+    "message": "Slår temaet til eller fra overalt."
+  },
+  "interfaceTheme": {
+    "message": "Udvidelsens brugerflade"
+  },
+  "interfaceThemeHint": {
+    "message": "Udseendet af denne side og pop op-vinduet på værktøjslinjen."
+  },
+  "openSettings": {
+    "message": "Indstillinger"
+  },
+  "palette": {
+    "message": "Farvetema"
+  },
+  "paletteDim": {
+    "message": "Dæmpet"
+  },
+  "paletteDimHint": {
+    "message": "Blød grå med mild kontrast"
+  },
+  "paletteGraphite": {
+    "message": "Grafit"
+  },
+  "paletteGraphiteHint": {
+    "message": "Afbalanceret, det anbefalede standardvalg"
+  },
+  "paletteMidnight": {
+    "message": "Midnat"
+  },
+  "paletteMidnightHint": {
+    "message": "Næsten sort, ideel til OLED-skærme"
+  },
+  "sectionAppearance": {
+    "message": "Udseende"
+  },
+  "sectionGeneral": {
+    "message": "Generelt"
+  },
+  "sectionSites": {
+    "message": "Websteder"
+  },
+  "settingsTitle": {
+    "message": "Indstillinger"
+  },
+  "sitesAddLabel": {
+    "message": "Webstedets adresse"
+  },
+  "sitesAddPlaceholder": {
+    "message": "canvas.dinskole.dk"
+  },
+  "sitesEmpty": {
+    "message": "Ingen endnu. Åbn Canvas og slå det til via ikonet på værktøjslinjen, eller tilføj det nedenfor."
+  },
+  "sitesHint": {
+    "message": "Mørk tilstand kører kun på disse websteder, som hver især har fået adgang."
+  },
+  "sitesPausedBadge": {
+    "message": "På pause"
+  },
+  "sitesTitle": {
+    "message": "Aktiverede websteder"
+  },
+  "statusAccessBody": {
+    "message": "Din browser blokerer udvidelsen på dette websted."
+  },
+  "statusAccessTitle": {
+    "message": "Adgang påkrævet"
+  },
+  "statusActiveTitle": {
+    "message": "Slået til på dette websted"
+  },
+  "statusDetectedBody": {
+    "message": "Slå mørk tilstand til for dette domæne. Du bliver kun spurgt én gang."
+  },
+  "statusDetectedTitle": {
+    "message": "Canvas fundet"
+  },
+  "statusNoneBody": {
+    "message": "Åbn Canvas i denne fane for at styre det herfra."
+  },
+  "statusNoneTitle": {
+    "message": "Ingen Canvas-side åben"
+  },
+  "statusOffBody": {
+    "message": "Slå den til for at gøre Canvas mørkt igen."
+  },
+  "statusOffTitle": {
+    "message": "Mørk tilstand er slået fra"
+  },
+  "statusPausedTitle": {
+    "message": "Sat på pause på dette websted"
+  },
+  "statusSiteToggle": {
+    "message": "Mørk tilstand på $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "canvas.school.edu"
+      }
+    }
+  },
+  "statusUnrecognizedBody": {
+    "message": "Hvis dette websted er en del af dit Canvas, fx et indlejret værktøj, kan du stadig slå det til."
+  },
+  "statusUnrecognizedTitle": {
+    "message": "Ikke genkendt som Canvas"
+  },
+  "themeDark": {
+    "message": "Mørkt"
+  },
+  "themeLight": {
+    "message": "Lyst"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "version": {
+    "message": "Version $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  }
+}

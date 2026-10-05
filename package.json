@@ -13,7 +13,8 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "format": "biome format --write .",
-    "icons": "node scripts/generate-icons.mjs"
+    "icons": "node scripts/generate-icons.mjs",
+    "sync-i18n": "node scripts/sync-i18n.js"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",

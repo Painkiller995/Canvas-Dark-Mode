@@ -1,6 +1,6 @@
 {
   "name": "canvas-dark-mode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "A refined dark theme for Canvas LMS that works on any school's domain.",
   "packageManager": "pnpm@11.20.0",
